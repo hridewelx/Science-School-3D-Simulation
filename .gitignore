@@ -1,0 +1,79 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+venv*/
+
+# Pip / packaging
+pip-wheel-metadata/
+pip-selfcheck.json
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage
+.pytest_cache/
+.tox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+
+# Type checkers
+.mypy_cache/
+.pyre/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor swap / temp files
+*~
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# C extensions
+*.so
+
+# Binary / build artifacts
+*.pyc
+*.pyo
+
+# Panda3D generated / compiled files
+*.bam
+*.txo
+
+# Optional: user-specific files
+.env
+local_settings.py
+
+# Project-specific (avoid ignoring repository assets like models unless generated)
+# If you generate textures/models at runtime, add them here. Example generated cache:
+# media/cache/
